@@ -1,0 +1,88 @@
+# -----------------------------
+# Alacritty Configuration
+# Tokyo Night - Deep Storm
+# -----------------------------
+
+[terminal.shell]
+program = "/bin/zsh"
+args = []
+
+[general]
+live_config_reload = true
+
+# -----------------------------
+# Font
+# -----------------------------
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+# -----------------------------
+# Keyboard
+# -----------------------------
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = ""
+
+# -----------------------------
+# Colors
+# -----------------------------
+
+[colors.primary]
+background = "#14161b"
+foreground = "#c5c8c6"
+
+[colors.normal]
+black   = "#14161b"
+red     = "#e06c75"
+green   = "#98c379"
+yellow  = "#e5c07b"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#56b6c2"
+white   = "#c5c8c6"
+
+[colors.bright]
+black   = "#5c6370"
+red     = "#e06c75"
+green   = "#98c379"
+yellow  = "#e5c07b"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#56b6c2"
+white   = "#ffffff"
+
+# -----------------------------
+# Cursor
+# -----------------------------
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[colors.cursor]
+text = "#14161b"
+cursor = "#61afef"
+
+# -----------------------------
+# Selection
+# -----------------------------
+
+[colors.selection]
+text = "#c5c8c6"
+background = "#2c313c"
+
