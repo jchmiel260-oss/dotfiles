@@ -4,7 +4,7 @@
 # -----------------------------
 
 [terminal.shell]
-program = "/bin/zsh"
+program = "zsh"
 args = []
 
 [general]
